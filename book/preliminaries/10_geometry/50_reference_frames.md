@@ -1,7 +1,7 @@
 # Reference frames {#reference_frames status=beta}
 
 <div class="check" markdown="1">
-Required Reading: The following assumes a working familiarity with 2D and 3D Cartesian coordinate systems. If you are not familiar with Cartesian coordinate systems, please read the [chapter on coordinate systems](#coordinate_systems).
+Required Reading: The following assumes a working familiarity with 2D and 3D Cartesian coordinate systems. If you are not familiar with Cartesian coordinate systems, please read the [chapter on coordinate systems](+preliminaries#coordinate_systems).
 </div>
 
 ## Motivation
