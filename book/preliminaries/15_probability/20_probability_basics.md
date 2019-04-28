@@ -1,6 +1,6 @@
-# Probability basics {#probability_basics status=beta}
+# Probability basics {#probability_basics status=ready}
 
-In this chapter we give a brief review of some basic probabilistic concepts. 
+In this chapter we give a brief review of some basic probabilistic concepts.
 
 For a more in-depth treatment of the subject we refer the interested reader to a textbook such as [](#bib:Papoulis).
 
@@ -19,7 +19,7 @@ $$
   \newcommand{\tails}{\textsf{TAILS}}
 $$
 
-For example, we could model the event of flipping a fair coin with the random variable $X$. We write the probability that $X$ takes $\heads$ as $p(X=\heads)$. The set of all possible values for the variable $X$ is its *domain*, $\aset{X}$. 
+For example, we could model the event of flipping a fair coin with the random variable $X$. We write the probability that $X$ takes $\heads$ as $p(X=\heads)$. The set of all possible values for the variable $X$ is its *domain*, $\aset{X}$.
 
 In this case,
 $$
@@ -49,7 +49,7 @@ Here are some very important properties of $p(x)$:
 
 In the case of a continuous random variable, we will call this function $f(x)$ and call it a *probability density function*, or pdf.
 
-In the case of continuous RVs, technically the $p(X=x)$ for any value $x$ is zero since $\aset{X}$ is infinite. To deal with this, we also define another important function, the *cumulative density function*, which is given by $F(x) \triangleq p(X\leq x)$, and now we can define $f(x) \triangleq \frac{d}{dx}F(x)$. 
+In the case of continuous RVs, technically the $p(X=x)$ for any value $x$ is zero since $\aset{X}$ is infinite. To deal with this, we also define another important function, the *cumulative density function*, which is given by $F(x) \triangleq p(X\leq x)$, and now we can define $f(x) \triangleq \frac{d}{dx}F(x)$.
 
 A pdf and corresponding cdf are shown in [](#fig:pdf_cdf). This happens to be a Gaussian distribution, defined more precisely in [](#gaussian).
 
@@ -59,7 +59,7 @@ A pdf and corresponding cdf are shown in [](#fig:pdf_cdf). This happens to be a 
 
 ### Joint Probabilities {#joint}
 
-If we have two different RVs representing two different events $X$ and $Y$, then we represent the probability of two distinct events $x \in \aset{X}$ and $y \in \mathcal{Y}$ both happening, which we will denote as follows: 
+If we have two different RVs representing two different events $X$ and $Y$, then we represent the probability of two distinct events $x \in \aset{X}$ and $y \in \mathcal{Y}$ both happening, which we will denote as follows:
 
 $$
 p(X=x \; \text{AND} \; Y=y) = p(x,y)
@@ -69,9 +69,9 @@ The function $p(x,y)$ is called *joint distribution*.
 
 ### Conditional Probabilities {#conditional}
 
-Again, considering that we have to RVs, $X​$ and $Y​$, imagine these two events are linked in some way. For example, $X​$ is the numerical output of a die roll and $Y​$ is the binary even-odd output of the same die roll. Clearly these two events are linked since they are both uniquely determined by the same underlying event (the rolling of the die). In this case, we say that the RVs are *dependent* on one another. 
+Again, considering that we have to RVs, $X​$ and $Y​$, imagine these two events are linked in some way. For example, $X​$ is the numerical output of a die roll and $Y​$ is the binary even-odd output of the same die roll. Clearly these two events are linked since they are both uniquely determined by the same underlying event (the rolling of the die). In this case, we say that the RVs are *dependent* on one another.
 
-In the event that we know one of events, this gives us some information about the other. We denote this using the following *conditional distribution* 
+In the event that we know one of events, this gives us some information about the other. We denote this using the following *conditional distribution*
 $$
 p(X=x \; \text{GIVEN} \; Y=y) \triangleq p(x|y).
 $$
@@ -175,7 +175,7 @@ in the continuous case.
 
 The 1st moment is the *mean*, $\mu_X=E[X]$.
 
-The $n$-th central moment of an RV, $X$ is given by $E[(X-\mu_X)^n]$. 
+The $n$-th central moment of an RV, $X$ is given by $E[(X-\mu_X)^n]$.
 
 The second central moment is called the *covariance*, $\sigma^2_X=E[(X-\mu_X)^2]$.
 

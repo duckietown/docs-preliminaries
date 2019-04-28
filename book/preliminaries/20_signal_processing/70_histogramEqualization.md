@@ -1,12 +1,16 @@
-# Histogram Equalization {#preliminaries-histogram-equalization status=draft}
+# Histogram Equalization {#preliminaries-histogram-equalization status=ready}
+
 This text will talk about histograms used for image analysis.
+
 ## Motivation
 Histogram Equalization can be used for contrast adjustment. For example when a gray scale picture has all values around one value the contrast mathematical difference between different pixels is in general really low. But with histogram equalization the colors are kind of normalized such that the difference and the therefore the contrast of a gray scale picture is increased.
+
 ## Histogram
  We'll assume in the following 8-bit values for every data point in a picture.
 One can create histogram by counting the number of values for each appearance of intensity in a channel. Such a histogram has bin size 1.
 So for a one channel picture (gray scale) we have different gray types between 0 and 255 (8-bit image).
 A RGB picture would have for every channel such a histogram.
+
 ## Description of the Equalization
 ### Problem description
 So let's assume we'll take a picture of a scene lightened with a perfect red light source.

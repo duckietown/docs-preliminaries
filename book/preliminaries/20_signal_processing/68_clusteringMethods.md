@@ -1,5 +1,6 @@
-# Clustering methods {#preliminaries-clustering-methods status=draft}
-Clustering is the process of grouping some objects such that similar objects belong to the same group. In the sense of colors it could be that similar colors are grouped together e.g. bright red, ruby and pink belong to the group of red colors where as azure blue, copenhagen blue and dark blue would be grouped to the blue colors.  
+# Clustering methods {#preliminaries-clustering-methods status=ready}
+
+Clustering is the process of grouping some objects such that similar objects belong to the same group. In the sense of colors it could be that similar colors are grouped together e.g. bright red, ruby and pink belong to the group of red colors where as azure blue, Copenhagen blue and dark blue would be grouped to the blue colors.  
 Various algorithm can solve such a task. They differ in how they define what is a cluster (e.g. the members are within a certain distance) and how efficiently these algorithms can find these clusters.  
 Following some algorithms for determining clusters are presented.
 
@@ -60,7 +61,7 @@ Simply speaking Gaussian mixture models are a more general version of k-Means as
 1. Initialize $n$ Gaussian mixture components with zero mean and identity covariance. (Often a diagonal covariance matrix is used.)
 2. E-step: for each point, estimate the probability that each Gaussian generated it.
 3.  M-step: modify the parameters according to the hidden variable to maximize the likelihood of the data.
-4. Repeat step 2 and 3 (expectation-maximation [EM]) until average gain in log-likelihood is below this threshold.
+4. Repeat step 2 and 3 (expectation-maximization [EM]) until average gain in log-likelihood is below this threshold.
 
 ### Advantages and Disadvantages
 

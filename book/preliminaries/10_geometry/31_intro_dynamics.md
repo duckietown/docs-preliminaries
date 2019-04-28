@@ -1,3 +1,1 @@
-# Dynamics {#intro-dynamics status=draft}
-
-Assigned: Harshit
+# Dynamics {#intro-dynamics status=beta}

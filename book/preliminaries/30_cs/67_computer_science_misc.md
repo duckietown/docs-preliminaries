@@ -1,7 +1,6 @@
-# Computer science concepts {#computer-science-concepts status=draft}
+# Computer science concepts {#computer-science-concepts status=beta}
 
-This unit will contain brief explanations / pointers to basic
-concepts of computer science.
+This unit will contain brief explanations / pointers to basic concepts of computer science.
 
 
 ## Real-time Operating system {#RTOS}

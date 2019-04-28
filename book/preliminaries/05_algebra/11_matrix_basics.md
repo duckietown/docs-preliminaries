@@ -1,6 +1,6 @@
-# Matrices basics {#matrix-definitions status=draft}
+# Matrices basics {#matrix-definitions status=ready}
 
-Assigned: Dzenan Lapandic
+
 
 <div class='requirements' markdown='1'>
 

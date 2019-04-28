@@ -1,4 +1,4 @@
-# Transformations {#transformations status=beta}
+# Transformations {#transformations status=ready}
 
 <div class="check" markdown="1">
 Required Reading: The following assumes a working familiarity with 2D and 3D Cartesian reference frames. If you are not familiar with Cartesian reference frames, please read the [chapter on reference frames](+preliminaries#reference_frames). Some familiarity with [linear algebra](+preliminaries#linear_algebra) is also helpful.

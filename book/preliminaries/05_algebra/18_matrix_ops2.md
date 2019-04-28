@@ -1,6 +1,6 @@
-# Matrix operations (complex) {#matrix-ops-complex status=draft}
+# Matrix operations (complex) {#matrix-ops-complex status=beta}
 
-Assigned: Dzenan Lapandic
+
 
 - matrix scalar product
 - matrix Hadamart product

@@ -1,4 +1,4 @@
-# Time series {#time-series status=draft}
+# Time series {#time-series status=beta}
 
 <div class='requirements' markdown='1'>
 
