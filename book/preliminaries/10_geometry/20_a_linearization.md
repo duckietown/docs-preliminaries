@@ -1,6 +1,6 @@
-# Linearization {#intro-linearization status=draft}
+# Linearization {#intro-linearization status=beta}
 
-Assigned: Miguel
+
 
 ## Taylor Series Expansion
 

@@ -1,6 +1,6 @@
-# Linearity and Vectors {#linear_algebra status=draft}
+# Linearity and Vectors {#linear_algebra status=ready}
 
-Assigned: Jacopo Tani
+
 
 <!--Start with a brief introduction of the discussed topic, describing its place in the bigger picture, justifying the reading constraints/guidelines below. Write it as if the reader knew the relevant terminology. -->
 
@@ -90,7 +90,7 @@ f(ax_1 + bx_2) = af(x_1) + bf(x_2), \forall x_i \in \aset{X}, i = \{1,2\}, \fora
 This equivalent condition \eqref{eq:linearity} is instead referred to as _superposition principle_, which unveils the bottom line of the concept of linearity: adding up (equivalently, scaling up) inputs results in an added up (equivalently, scaled up) output.
 
 
-## Vectors 
+## Vectors
 
 Let $n$ belong to the set of natural numbers $\nats$, i.e., $n \in \nats$, and let $a_i \in \reals$, $i = \{1, \dots, n\}$ be real coefficients. While $\reals$ is the set of real numbers, $\reals^n$ is the set of all $n$-tuples of real numbers.
 
@@ -364,7 +364,7 @@ And finally, this is how you save the world, in theory.
 
 -->
 
-## Pointers to Exercises 
+## Pointers to Exercises
 
 TODO: add exercises
 
@@ -414,7 +414,6 @@ See also: [Matrix cookbook](#bib:matrix-cookbook)
 
 Author: Jacopo Tani
 
-Maintainer: Jacopo Tani
+
 
 Point of Contact: Jacopo Tani
-

@@ -1,7 +1,4 @@
-# Kinematics {#intro-kinematics status=draft}
-
-Assigned: Harshit
-
+# Kinematics {#intro-kinematics status=beta}
 
 Kinematics is the study of _position_, _velocity_ and _acceleration_ of geometric points.
 

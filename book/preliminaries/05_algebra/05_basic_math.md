@@ -1,6 +1,4 @@
-# Sets {#sets status=draft}
-
-Maintainer: ?
+# Sets {#sets status=ready}
 
 <div class='requirements' markdown='1'>
 
@@ -51,7 +49,7 @@ TODO: to write
 TODO: to write
 
 
-# Numbers {#numbers status=draft}
+# Numbers {#numbers status=ready}
 
 <div class='requirements' markdown='1'>
 
@@ -61,7 +59,7 @@ Result: k:naturals, k:integers, k:reals
 
 </div>
 
-## Natural numbers {#intro-nats status=beta}
+## Natural numbers {#intro-nats status=ready}
 
 $\nats = \{0, 1, 2, \cdots\}$
 

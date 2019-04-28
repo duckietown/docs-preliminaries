@@ -1,4 +1,4 @@
-# Coordinate systems {#coordinate_systems status=beta}
+# Coordinate systems {#coordinate_systems status=ready}
 
 ## Motivation
 
@@ -93,7 +93,7 @@ Exercise to readers: how to convert spherical coordinates to 3D Cartesian coordi
 </div>
 
 ## Further reading
- 
+
 If you find this topic interesting, there are many more coordinate systems than the ones covered here, such as the:
 
 See also: [cylindrical coordinate system](https://en.wikipedia.org/wiki/Cylindrical_coordinate_system) in 3D space and
@@ -101,5 +101,3 @@ See also: [cylindrical coordinate system](https://en.wikipedia.org/wiki/Cylindri
 See also: [parabolic coordinate system](https://en.wikipedia.org/wiki/Parabolic_coordinates) in 2D space.
 
 Author: Falcon Dai
-
-Maintainer: Falcon Dai
