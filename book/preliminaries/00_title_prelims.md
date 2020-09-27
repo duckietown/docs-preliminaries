@@ -1,3 +1,3 @@
-# Preliminaries {#book:preliminaries status=ready}
+# Preliminaries {#book:book status=ready}
 
 
